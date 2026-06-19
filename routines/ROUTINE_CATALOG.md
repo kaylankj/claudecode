@@ -42,33 +42,36 @@
 
 ---
 
-## PART 2 — PROPOSED NEW ROUTINES (gaps visible in your state file)
+## PART 2 — NEW ROUTINES (🟢 LIVE in Claude Code as of 2026-06-19)
 
-> ⚪ These are *suggestions* drawn from recurring loops in KAYLAN_STATE.md.
-> Keep, cut, or edit. Nothing here is built yet.
+> These run via the Claude Code `scheduled-tasks` engine on this Mac (while the app
+> is open; if closed when due, they run on next launch). All are **draft-and-notify
+> only** — none send, post, publish, or spend. Each writes a report to
+> `Desktop/the well place/AI Team/Routine Reports/<name>/<date>.md`.
+> Definitions: `~/.claude/scheduled-tasks/<name>/SKILL.md`.
 
 ### 💼 Business
-| Proposed | Suggested cadence | Why (the loop it closes) |
-|---|---|---|
-| `funding-deadline-watch` | daily | Funding deadlines keep going to 0 days (Evolve $50K, Visionaries, TiE, HLTH, AT&T). A daily countdown + "submit/extend by" alert |
-| `ip-deadline-watch` | weekly | 2 trademark Office Actions due **2026-07-20** (NANONUTRITION + High Exosome Diet); patent/PCT windows. Surfaces what's due before it lapses |
-| `publishing-unblock` | daily | The #1 lever flagged repeatedly: *publishing is the bottleneck, not drafting.* Watches Repurpose.io health + the unsent draft pile (52 drafts, 8 AUTO) and nudges 1 send |
-| `client-pipeline-sweep` | weekly | Notion Client Pipeline keeps going empty; warm follow-ups for kit recipients + leads |
-| `stripe-checkout-watch` | weekly | Stripe reads live but checkout plumbing has gaps ($0 despite owed kits). Confirms buy-links actually work |
+| Routine | Schedule (local) | What it does | Status |
+|---|---|---|---|
+| `funding-deadline-watch` | daily 6:36 AM | Countdown of every live funding deadline; 🔴 flags ≤7 days; web-verifies <14-day ones | 🟢 |
+| `publishing-unblock` | daily 7:01 AM | Watches the unsent draft pile + Repurpose.io health; surfaces ONE "ship today" pick | 🟢 |
+| `ip-deadline-watch` | Mon 7:38 AM | TM Office Actions (due 2026-07-20) + patent/PCT windows; flags ≤30/≤14 days | 🟢 |
+| `client-pipeline-sweep` | Wed 9:10 AM | Pipeline follow-up list + drafts top 3 warm follow-ups (not sent) | 🟢 |
+| `stripe-checkout-watch` | Fri 8:05 AM | Confirms Stripe live + every active product has a working buy-link | 🟢 |
 
 ### 🏠 Personal
-| Proposed | Suggested cadence | Why |
-|---|---|---|
-| `willie-va-tracker` | weekly | VA claim 127839356 (Step 3/8); sleep-apnea C&P exam ~6/29 is the last holdup; back-pay accruing. Tracks QTC/VA next-actions |
-| `health-followups` | weekly | Open medical loops: seizure eval (30+ days), comprehensive blood draw + thyroid panel before deadlines, echo/EF before any stress protocol |
-| `credit-rebuild` | monthly | July post-Paris plan: pay-for-delete $637 OIS collection, bureau freezes, Ollo app. Keeps the steps moving |
-| `family-calendar-sync` | daily | Family cal (kkelsey143) keeps disconnecting so trips/events don't show on the work calendar |
+| Routine | Schedule (local) | What it does | Status |
+|---|---|---|---|
+| `family-calendar-sync` | daily 6:53 AM | Checks personal events are on the work cal; flags kkelsey143 disconnects | 🟢 |
+| `willie-va-tracker` | Mon 8:06 AM | VA claim 127839356 next-actions; sleep-apnea C&P + 8/11 reimbursement | 🟢 |
+| `health-followups` | Thu 8:08 AM | Open medical loops: seizure eval, comprehensive draw + thyroid, echo/EF | 🟢 |
+| `credit-rebuild` | 1st of month 9 AM | Credit-rebuild steps: OIS pay-for-delete, freezes, Ollo; pulls score factors | 🟢 |
 
 ### ⚙️ Infrastructure
-| Proposed | Suggested cadence | Why |
-|---|---|---|
-| `memory-prune` | weekly | `MEMORY.md` keeps blowing past its size cap (37KB, over again). Auto-trim + archive |
-| `otter-backfill-watch` | weekly | ~80 never-synced Otter transcripts backlog; drains it in batches |
+| Routine | Schedule (local) | What it does | Status |
+|---|---|---|---|
+| `memory-prune` | Sun 11:02 PM | Checks MEMORY.md size; writes a PROPOSED trim (never overwrites live) | 🟢 |
+| `otter-backfill-watch` | Sat 10:07 AM | Reports the Otter→Notion backlog + recommends next batch (you trigger sync) | 🟢 |
 
 ---
 
