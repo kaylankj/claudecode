@@ -75,6 +75,21 @@
 
 ---
 
+## PART 2B — BUSINESS SYSTEM HEALTH CHECKS (🟢 LIVE in Claude Code, 2026-06-19)
+
+> "Are we up to par?" inspection routines per asset. All draft-and-notify only.
+> `business-pulse` is the weekly rollup that reads every other report.
+
+| Routine | Schedule (local) | What it checks | Status |
+|---|---|---|---|
+| `app-health-check` | Tue 8:01 AM | Vessel app: TestFlight build, Supabase active/migrations, test suite, Anthropic credits | 🟢 |
+| `website-health-check` | Tue 9:10 AM | thewellplace.co loads + known leaks (Recieve typo, BOOK NOW green, popup→MailerLite, brand) | 🟢 |
+| `email-health-check` | Wed 8:08 AM | MailerLite automations (Welcome/[QUIZ]), list growth, bounces/spam, days dark | 🟢 |
+| `social-media-health-check` | Thu 9:08 AM | IG/TikTok posted-this-week?, follower trend, ManyChat live, Repurpose.io fixed? | 🟢 |
+| `business-pulse` | Fri 4:04 PM | Rollup scorecard across App/Web/Email/Social/Cash/Funding/Clients/IP + top 3 actions | 🟢 |
+
+---
+
 ## PART 3 — YOUR ADDITIONS (brain-dump zone)
 
 > Drop any routine you want here in one line. I'll formalize each into Part 1/2
