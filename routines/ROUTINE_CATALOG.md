@@ -42,6 +42,23 @@
 
 ---
 
+## PART 1B — PORTED COWORK → CLAUDE CODE (2026-06-19, smart split)
+
+> These 3 weekly content/scout routines were reconstructed as Claude Code tasks
+> (they invoke the TWP skills: twp-auto-brain, twp-funding-scout, twp-substack,
+> twp-brand-voice, twp-podcast). **⚠️ Disable the Cowork twins** so they don't double-run.
+> The daily-critical / state-writing / app-build / infra routines in Part 1 STAY in Cowork.
+
+| Routine | Schedule (local) | What it does | Status |
+|---|---|---|---|
+| `twp-monday-sprint` | Mon 12:06 PM | Funding scout (net-new + reconfirm) → Funding Briefing .docx + podcast repurpose check | 🟢 ported |
+| `twp-tuesday-writing` | Tue 10:03 AM | Drafts 1 Substack + 1 paired nurture email in her voice (humanizer pass) | 🟢 ported |
+| `twp-podcast-content-batch` | Thu 1:05 PM (self-gates) | Podcast→social batch ONLY when a genuinely new episode exists | 🟢 ported |
+
+**Cowork twins to DISABLE:** `twp-monday-podcast` (Monday Sprint), `twp-tuesday-writing`, `twp-podcast-content-batch`.
+
+---
+
 ## PART 2 — NEW ROUTINES (🟢 LIVE in Claude Code as of 2026-06-19)
 
 > These run via the Claude Code `scheduled-tasks` engine on this Mac (while the app
